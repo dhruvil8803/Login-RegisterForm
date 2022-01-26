@@ -1,0 +1,18 @@
+  {{>main}}
+    <!-- +++++++++++++++++++++++++++Navbar+++++++++++++++++++++ -->
+   {{>navbar}}
+    <!-- +++++++++++++++++++++++++ Main form +++++++++++++++++++++++++++++++ -->
+     <div class="container">
+        <div class="outerbox">
+          <form class="innerbox" action="/delete" method="POST">
+           <label for="Userid">User id:</label>
+           <input type="text" placeholder="Enter Your User Id" name="userid" required>
+           <label for="Password">Old Password:</label>
+           <input type="password" placeholder="Enter your password" name="password" required>
+           <input type="submit" class="submit">
+          </form>
+        </div>
+     </div>
+       
+</body>
+</html>

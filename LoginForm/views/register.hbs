@@ -1,0 +1,24 @@
+      {{>main}}
+    <!-- +++++++++++++++++++++++++++Navbar+++++++++++++++++++++ -->
+   {{>navbar}}
+    <!-- +++++++++++++++++++++++++ Main form +++++++++++++++++++++++++++++++ -->
+     <div class="container">
+        <div class="outerbox">
+          <form class="innerbox" action="/add" method="POST">
+           <label for="First Name">FirstName:</label>
+           <input type="text" placeholder="Enter Your Name" name="name" required>
+           <label for="Last Name">LastName:</label>
+           <input type="text" placeholder="Enter Your SirName" name="sirname" required>
+           <label for="Userid">User id:</label>
+           <input type="text" placeholder="Enter Your User Id" name="userid" required>
+           <label for="Password">Password:</label>
+           <input type="password" placeholder="Enter any password you want" name="password" required>
+           <label for="Age">Age:</label>
+           <input type="number" placeholder="Enter your age" name="age" required>
+           <input type="submit" class="submit">
+          </form>
+        </div>
+     </div>
+       
+</body>
+</html>
